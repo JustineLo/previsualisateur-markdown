@@ -291,3 +291,8 @@ td {
 .mk {
   font-family:'Courier New', Courier, monospace;
 }
+
+footer {
+  padding: 2%;
+  text-align: center;
+}

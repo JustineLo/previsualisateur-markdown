@@ -30,7 +30,7 @@ const Modal = () => {
                     </tr>
                     <tr>
                         <td><div class="mk">
-                            --- diviseur <br />>
+                            --- diviseur <br />
                             ** Texte gras **<br />
                             * Texte italique *<br />
                             &gt; Citation <br />

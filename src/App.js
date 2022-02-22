@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
-import './App.css';
+import './index.css';
 import Modal from './Modal';
 import { useGlobalContext } from './context';
+import Flip from 'react-reveal/Flip';
 
 function App() {
   const [markdown, setMarkdown] = useState('# Entrez votre texte ici...')
@@ -27,8 +28,14 @@ function App() {
           <ReactMarkdown>{markdown}</ReactMarkdown>
         </article>
       </section>
-
+      <footer>
+        <Flip bottom>
+          <h5>© 2022 - Crée avec ❤ par <a href="">Justine Lo</a></h5>
+        </Flip>
+      </footer>
     </main>
+
+
   )
 }
 
