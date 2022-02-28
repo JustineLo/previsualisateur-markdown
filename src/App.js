@@ -30,7 +30,7 @@ function App() {
       </section>
       <footer>
         <Flip bottom>
-          <h5>© 2022 - Crée avec ❤ par <a href="https://justinelo-portfolio.netlify.app">Justine Lo</a></h5>
+          <h5>© 2022 - Créé avec ❤ par <a href="https://justinelo-portfolio.netlify.app">Justine Lo</a></h5>
         </Flip>
       </footer>
     </main>
